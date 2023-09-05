@@ -1,0 +1,34 @@
+.movie-container {
+    display: flex;
+    flex-direction: column;
+}
+.movie-container >h2 {
+    font-size: 2.5rem;
+}
+.movie-list {
+    display: flex;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: center;
+}
+.movie-list>li{
+    list-style-type:none;
+}
+.movie{
+    width:min-content;
+    margin: 20px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    justify-content: center;
+    border-radius: 5px;
+    align-items: center;
+    flex-direction: column;
+    transition: all 2s linear;
+}
+.movie:hover{
+    box-shadow:  10px 10px #eb4c20;
+}
+.description {
+    /* width: 60%; */
+    margin: 0 auto;
+}
